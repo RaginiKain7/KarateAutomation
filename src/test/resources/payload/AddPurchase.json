@@ -1,0 +1,94 @@
+        {
+            "payload":{
+                        "parameters":{
+                            "LUCID":"LUCID-TEST20221011",
+                            "ISOCountry":"ae",
+                            "Signature":"C4"
+                        },
+
+                        "body":{
+                            "currency":"AED",
+                            "paymentMethod":"COD",
+                            "purchaseId":"purchaseId_TEST",
+                            "TransactionId":"TEST_TransactionId",
+                            "SourceRecordId":"TEST_SourceRecordId",
+                            "SourceSystemId":"CNNB_GCC",
+                            "sourceOrderNumber":"TEST_ORDER_NUMBER_ragini_11",
+                            "currentState":"Created",
+                            "creationDate":"2022-07-27T10:23:29.802Z",
+                            "orderDate":"2022-07-27T09:23:29.802Z",
+                            "amountWithTax":"250",
+                            "amountWithoutTax":"100.5",
+                            "locationId":"uae_en_AE",
+                            "locationName":"locationName_TEST",
+                            "purchaseItems":[
+                                {
+                                    "eanCode":"3474636857975",
+                                    "quantity":"1",
+                                    "listPrice":"120",
+                                    "paidAmount":"125.6"
+                                },
+                                {
+                                    "eanCode":"6294016930572",
+                                    "quantity":"1",
+                                    "listPrice":"95",
+                                    "paidAmount":"100.44"
+                                },
+                                {
+                                    "eanCode":"ORDER_LEVEL_DISCOUNT",
+                                    "quantity":"0",
+                                    "listPrice":"10",
+                                    "paidAmount":"13.5"
+                                }
+                            ],
+                            "shipments":{
+                                "shipment":{
+                                    "shippingId":"me",
+                                    "orderingAddress":{
+                                        "firstName":"maria 20220922 mod",
+                                        "lastName":"maria 20220922 mod",
+                                        "phone":"+20101122366987",
+                                        "email":"maria20220922-1333@test.com",
+                                        "addressLine1":"address 1 maria 20220922",
+                                        "addressLine2":"address 2 maria 20220922",
+                                        "city":"Dubai",
+                                        "postalCode":"111233",
+                                        "country":"UAE"
+                                    },
+                                    "billingAddress":{
+                                        "firstName":"maria billing 20220922 mod",
+                                        "lastName":"maria last billing 20220922",
+                                        "companyName":"Comp. billing 20220922",
+                                        "phone":"+201022111445",
+                                        "email":"mariaBilling20220922@test.com",
+                                        "addressLine1":"street 123 20220922",
+                                        "addressLine2":"",
+                                        "city":"Dubai",
+                                        "postalCode":"1234",
+                                        "region":"AB",
+                                        "country":"AE",
+                                        "registrationNumber":"ID-VAT-TEST"
+                                    },
+                                    "shippingAddress":{
+                                        "firstName":"maria shipping 20220922",
+                                        "lastName":"maria last shipping 20220922",
+                                        "companyName":"Comp. shipping 20220922",
+                                        "phone":"+201022111446",
+                                        "email":"mariaShipping20220922@test.com",
+                                        "addressLine1":"street 123 20220922",
+                                        "addressLine2":"",
+                                        "city":"Abu dhabi new",
+                                        "postalCode":"1234",
+                                        "region":"AB",
+                                        "country":"AE"
+                                    },
+                                    "shippingAmount":{
+                                        "grossPrice":"25.12",
+                                        "tax":"2.3",
+                                        "shippingCostWithTax":"1.2"
+                                    }
+                                }
+                            }
+                        }
+                    }
+        }
